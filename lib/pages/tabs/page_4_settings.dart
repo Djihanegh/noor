@@ -1065,7 +1065,7 @@ class _SettingsState extends State<Settings>
 
   Widget fontTypeButton(String font) {
     // ignore: deprecated_member_use
-    return FlatButton(
+    return TextButton(
       onPressed: () => context.read<AppSettings>().fontType = font,
       child: AnimatedDefaultTextStyle(
         style: TextStyle(
